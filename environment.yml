@@ -1,0 +1,11 @@
+name: hubspot-api
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - postgresql
+  - redis-py
+  - pip
+  - pip:
+      - -r requirements.txt
